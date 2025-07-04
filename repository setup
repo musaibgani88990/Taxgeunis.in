@@ -1,0 +1,24 @@
+# Initialize repository locally
+git init TaxGenius
+cd TaxGenius
+# Create initial files (e.g., backend, frontend, docs)
+mkdir backend frontend uiux deployment docs
+touch README.md CONTRIBUTORS.md
+# Add initial commit
+git add .
+git commit -m "Initial commit for Tax Genius project"
+# Push to GitHub
+git remote add origin https://github.com/your-organization/TaxGenius.git
+git push -u origin main
+# Initialize repository locally
+git init TaxGenius
+cd TaxGenius
+# Create initial files (e.g., backend, frontend, docs)
+mkdir backend frontend uiux deployment docs
+touch README.md CONTRIBUTORS.md
+# Add initial commit
+git add .
+git commit -m "Initial commit for Tax Genius project"
+# Push to GitHub
+git remote add origin https://github.com/your-organization/TaxGenius.git
+git push -u origin main
