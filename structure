@@ -1,0 +1,18 @@
+TaxGenius/
+├── backend/                # AI/ML models, API (e.g., Flask/FastAPI with scikit-learn)
+│   ├── models/            # Serialized models (e.g., tax_genius_regime_recommender.pkl)
+│   ├── api/               # API endpoints (e.g., /predict_tax_regime)
+│   └── tests/             # Backend unit and integration tests
+├── frontend/               # React.js dashboard
+│   ├── src/components/    # React components (e.g., TaxGeniusDashboard.js)
+│   ├── src/styles/        # CSS for dashboard (e.g., TaxGeniusDashboard.css)
+│   └── tests/             # Frontend unit tests
+├── uiux/                  # Figma prototype files or exported assets
+├── deployment/            # CI/CD configs, Dockerfiles, environment setup scripts
+├── docs/                  # Documentation (e.g., API specs, accessibility reports)
+└── README.md              # Project overview, setup instructions, team contributions
+# Contributors
+- **AI Engineer (Armagan firoz)**: Built and optimized scikit-learn models for tax regime recommendations.
+- **UI/UX Designer (saif farukh sheikh)**: Created Figma prototypes and ensured WCAG 2.1 compliance.
+- **Frontend Developer (Ayush Fande)**: Developed React.js dashboard with interactive sliders and charts.
+- **Deployment Tester (Musaib Gani)**: Validated CI/CD pipelines, conducted load/stress tests, ensured security and compliance.
